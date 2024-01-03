@@ -20,6 +20,9 @@ Once installed, rebuild and load the admin, then:
 4. [Optional] Add Subscription Table Code Names to the TaskData (space or new line separated) that you wish to still render inline on reports.
 5. Save
 
+## Report Subscription Limitation
+It seems that this will only work if the Reporting Subscription `Subscription Item` is set to a reporting table, not "(whole report)".
+
 ## Excluding Tables
 If there are any tables from reports you wish to keep inline to emails, simply modify the `Scheduled tasks` - `Report subscription sender`'s TaskData and include (new line or space separated) the Report table code names (visible when you edit or add a new Report Table in the Reporting module).
 
